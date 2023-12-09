@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="registrar-usuario.component.css">
+</head>
+<section class="row">
+    <div class="col-1">
+        <div class="info-box">
+            <img class="beneficios" src="../../../assets/logolions.png" alt="beneficios" style="margin-top: 10px">
+        </div>
+    </div>
+    <div class="col-2">
+        <app-form-registrar-usuario (onSubmit)="registerUser($event)"></app-form-registrar-usuario>
+    </div>
+</section>
+<p class="danger">{{msg}}</p>
+</html>
